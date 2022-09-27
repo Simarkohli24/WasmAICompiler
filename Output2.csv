@@ -1,0 +1,271 @@
+,issueNumber,title,description,FIGDiagnostic,labels,dateMade
+0,1600,No Title Found,"Description:
+I need forward-char in ^F
+but It's replaced to fig-open-workflows (by fig app?).
+this config not found in fig settings > Shortcuts.
+Details:
+macOS Fig Shell
+12.4.0 Version 1.0.58 (B467) /bin/zsh
+fig diagnostic",No Fig Diagnostic Found,['Error Getting Details'],Publish Date Not Found
+1,1601,Fig still not working,"Description:
+Please include a detailed description of the issue (and an image or screen recording, if applicable)
+Details:
+OS Fig Shell
+macOS 12.4.0 (21F79) 1.0.58 /bin/zsh
+fig diagnostic",No Fig Diagnostic Found,['None yet'],"Jul 6, 2022, 3:08 AM PDT"
+2,1602,Fig not working -- doesn't store login correctly.,"Description:
+Please include a detailed description of the issue (and an image or screen recording, if applicable)
+Fig doesn't accept my login -- after I've logged in with my email, received a code and entered it, I get a Login Successful! output. However, no autocomplete pops up, and when I check fig doctor, my login seems to not have been properly stored as I get a response telling me that I am not logged in.
+fig doctor output:
+--> x Logged into Fig: Not logged in. Run fig login to login.
+Details:
+OS Fig Shell
+macOS 12.4.0 (21F79) 1.0.58 /bin/zsh
+fig diagnostic",No Fig Diagnostic Found,['None yet'],"Jul 6, 2022, 9:20 AM PDT"
+3,1603,zsh-autosuggestions.zsh:27: command not found: ^M,"Description:
+Please include a detailed description of the issue (and an image or screen recording, if applicable)
+(base) ➜ ~ fig source
+✅ Dotfiles sourced!
+/Users/xxx/.local/share/fig/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh:27: command not found: ^M
+/Users/xxx/.local/share/fig/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh:31: command not found: ^M
+/Users/xxx/.local/share/fig/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh:35: command not found: ^M
+/Users/xxx/.local/share/fig/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh:37: command not found: ^M
+/Users/xxx/.local/share/fig/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh:39: command not found: ^M
+/Users/xxx/.local/share/fig/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh:41: command not found: ^M
+/Users/xxx/.local/share/fig/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh:152: parse error near `in^M'
+Details:
+macOS Fig Shell
+13.0.0 Version 1.0.58 (B472) /bin/zsh
+fig diagnostic",No Fig Diagnostic Found,['awaiting user reply'],"Jul 7, 2022, 7:08 AM PDT"
+4,1604,Fig not opening when pressing space,"Description:
+Please include a detailed description of the issue (and an image or screen recording, if applicable)
+Fig not opening when pressing space. https://share.cleanshot.com/gU5vj5
+Details:
+OS Fig Shell
+macOS 11.6.7 (20G630) 1.0.58 /bin/zsh
+fig diagnostic",No Fig Diagnostic Found,['None yet'],"Jul 7, 2022, 1:06 PM PDT"
+5,1605,can I unbind fig-open-workflows from ctrl+f ?,"Discussed in #1600
+Originally posted by elzup July 6, 2022
+Description:
+I need forward-char in ^F
+but It's replaced to fig-open-workflows (by fig app?).
+this config not found in fig settings > Shortcuts.
+Details:
+macOS Fig Shell
+12.4.0 Version 1.0.58 (B467) /bin/zsh
+fig diagnostic",No Fig Diagnostic Found,['bug'],"Jul 7, 2022, 7:35 PM PDT"
+6,1606,Fig intellisense is not popping up,"Description:
+Please include a detailed description of the issue (and an image or screen recording, if applicable)
+Details:
+macOS Fig Shell
+12.3.0 Version 1.0.58 (B472) /bin/zsh
+fig diagnostic",,['None yet'],"Jul 8, 2022, 8:01 AM PDT"
+7,1607,Fig does not find options,"Description:
+Please include a detailed description of the issue (and an image or screen recording, if applicable)
+Screen.Recording.2022-07-08.at.14.35.25.mov
+Details:
+OS Fig Shell
+macOS 12.3.1 (21E258) 1.0.58 /bin/zsh
+fig diagnostic",No Fig Diagnostic Found,['None yet'],"Jul 8, 2022, 10:36 AM PDT"
+8,1608,Fig suggestions for cd not working,"Description:
+Please include a detailed description of the issue (and an image or screen recording, if applicable)
+Fig suggestions do not show up for using cd to navigate between folders, but shows up for things like git or fig.
+git example
+cd example
+Details:
+OS Fig Shell
+macOS 13.0.0 (22A5295h) 1.0.58 /bin/zsh
+fig diagnostic",No Fig Diagnostic Found,['None yet'],"Jul 8, 2022, 6:00 PM PDT"
+9,1609,Secure keyboard input disabled: Secure keyboard input is on Secure keyboard process is ターミナル - com.apple.Terminal (via Settings),"Description:
+Please include a detailed description of the issue (and an image or screen recording, if applicable)
+Details:
+OS Fig Shell
+macOS 11.6.7 (20G630) 1.0.58 /usr/local/Cellar/fish/3.4.1/bin/fish
+fig diagnostic",No Fig Diagnostic Found,['None yet'],"Jul 10, 2022, 10:46 AM PDT"
+10,1610,Red artifact border(?) around fig popup menue,"Description:
+Please include a detailed description of the issue (and an image or screen recording, if applicable)
+On one of the three Macs on which I am running fig, there is what I think is a red border around the auto-complete menu (see attached screenshots). When the menu is not populated, it presents as a single vertical line. This happens in both terminal.app and the VSCode integrated terminal. I believe this happened after a recent update. I am guessing it's a config thing rather than a bug since it is only happening on one computer, and that it is related to Fig because it happens in two different programs (unless VSCode is just a window for terminal.app).
+I have tried
+restarting Fig
+restarting the computer
+renaming the ~/.fig folder
+renaming the ~/Library/Preferences/com.mschrage.fig* folders
+reinstalling Fig
+None of these steps have resolved the problem. Any thoughts of where else to look would be appreciated.
+Details:
+OS Fig Shell
+macOS 12.4.0 (21F79) 1.0.58 /bin/zsh
+fig diagnostic
+![FigExample1](https://user-images.githubusercontent.com/35429283/178158899-bd67a75e-bde2-47cb-acb5-bcd9ac80262b.png) ![FigExample2](https://user-images.githubusercontent.com/35429283/178158900-7c92a2bc-4b33-492f-974c-d79438f40541.png)",No Fig Diagnostic Found,['None yet'],"Jul 10, 2022, 12:13 PM PDT"
+11,1611,Prompt not visible,"Description:
+Please include a detailed description of the issue (and an image or screen recording, if applicable)
+For some reason, my prompt stops working after a while and all I see is the below:
+A reboot sometimes works works
+Details:
+OS Fig Shell
+macOS 12.2.1 (21D62) 1.0.58 /bin/zsh
+fig diagnostic",No Fig Diagnostic Found,['bug'],"Jul 11, 2022, 8:27 AM PDT"
+12,1612,Spring CLI Integration,"Sanity checks
+I have searched github.com/withfig/fig/issues and there are no duplicates of my feature
+Feature Details
+Description:
+Add Spring CLI command autocomplete, It would be great to have support for spring commands
+for example auto-complete available commands with spring
+to show available commands run: spring
+Thank you for developing Fig, is amazing and I would love to contribute!",No Fig Diagnostic Found,['CLI request'],"Jul 11, 2022, 8:01 PM PDT"
+13,1613,"Autocomplete is loading, Make sure you're connected to the internet and try again","Description:
+Autocomplete does not work in Iterm2, VS Code and macOS built-in terminal.
+I have tried some options to fix this problem such as Reload Autocomplete, fig restart, fig doctor, but these methods could not fix this bug.
+What's more, I notice that other users provided feedback about the internet unavailability two months ago.They said Fig showed Autocomplete Error loading spec .. Make sure you're connected to the internet in Debugger (zsh). I came cross this prompt yesterday but today it has changed to this issue's title Autocomplete is loading, Make sure you're connected to the internet and try again
+Details:
+OS Fig Shell
+macOS 12.4.0 (21F79) 1.0.58 /bin/zsh
+fig diagnostic",No Fig Diagnostic Found,['None yet'],"Jul 12, 2022, 7:17 PM PDT"
+14,1614,Dotfiles - Only a subset of aliases present,"Description:
+I am finding that only some of the aliases I have configured in the Dotfiles section of the fig UI.
+There's no error when sourcing or saving the dotfiles but md and others are not present despite the fact that they were previously working with fig.
+Fig dotfiles UI:
+$alias output:
+..='cd ..'
+du=dust
+gist='s -p gist $1'
+github='s -p github $1'
+gmail='s -p gmail $1'
+google='s -p google $1'
+ls=exa
+maps='s -p googlemaps $1'
+mnt='mount |column -t'
+myip='curl ifconfig.me'
+mylocalip='ifconfig | sed -En ""s/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p""'
+ports='sudo lsof -i -P -n | grep LISTEN'
+run-help=man
+shopt=:
+stackoverflow='s -p stackoverflow $1'
+top=btm
+which-command=whence
+ya='yarn add'
+youtube='s -p youtube $1'
+yr='yarn run'
+Details:
+macOS Fig Shell
+12.4.0 Version 1.0.58 (B472) /bin/zsh
+fig diagnostic",No Fig Diagnostic Found,"['bug', 'codebase:dotfiles']","Jul 13, 2022, 7:08 AM PDT"
+15,1615,\b character ignored from custom insertValue commands using template literals,"Sanity checks
+I have searched github.com/withfig/fig/issues and there are no duplicates of my issue
+I have run fig doctor in the affected terminal session
+I have typed 'git ' and included a screenshot of the Debugger (click the Fig icon in the macOS menu bar)
+Issue Details
+Description:
+When creating personal shortcuts it is recommended to add two \b characters (backspace escape code) at the start of your insertValue command to remove the shortcut trigger from the actual command. \b characters are ignored if the insertValue command is passed a template literal ``
+Example
+Assuming a personal shortcut triggered by +[space]
+{
+      icon: ""fig://icon?type=github"",
+      name: ""withfig/fig issues"",
+      insertValue: ""\b\bopen https://github.com/withfig/fig/issues"",
+      description: ""Open Fig Issues Github page""
+}
+The above works as expected the + typed to trigger the shortcuts is removed and open https://github.com/withfig/fig/issues is triggered as expected.
+{
+      name: ""Good Morning! ☀️"",
+      icon: ""☀️"",
+      description: ""Update brew, NPM and node. Say an inspirational quote"",
+      insertValue: `\b\b
+        brew update; 
+        npm install npm@latest -g; 
+        npm update -g;
+        brew upgrade node;
+        echo;
+        npx -y fortuity | npx -y cowsay;
+        echo;
+      `
+}
+The above runs but before it starts it logs a command not found: + error.
+Additional Thoughts
+Because new lines trigger the previous command we could see some issues with any new lines before \b\b. e.g.
+insertValue: `
+  \b\b;
+  brew update; 
+  npm install npm@latest -g; 
+  npm update -g;
+  brew upgrade node;
+  echo;
+  npx -y fortuity | npx -y cowsay;
+  echo;
+`
+would still trigger a command not found error because the enter signal would be sent before the backspace signals. Not exactly related but close enough any solution to this should probably keep that in mind.
+Git Debugger Screenshot
+Environment
+# Fig Diagnostics
+## Fig details:
+  - Fig version: Version 1.0.58 (B472) [U.S.]
+  - Bundle path: /Applications/Fig.app
+  - Autocomplete: true
+  - Settings.json: true
+  - Accessibility: true
+  - Number of specs: 1
+  - Symlinked dotfiles: false
+  - Only insert on tab: false
+  - Keybindings path:
+  - Installation Script: true
+  - PseudoTerminal Path: /Users/joey/.bun/bin:/Users/joey/.yarn/bin:/Users/joey/.config/yarn/global/node_modules/.bin:/Users/joey/.serverless/bin:/Users/joey/.pyenv/versions/3.7.2/bin:/Users/joey/.ebcli-virtual-env/executables:/opt/homebrew/sbin:/Users/joey/.nodenv/shims:/Users/joey/.rbenv/shims:/Users/joey/.nodenv/shims:/Users/joey/.nodenv/bin:/Users/joey/.rbenv/shims:/Users/joey/.rbenv/bin:/Users/joey/.rbenv/plugins/ruby-build/bin:/Users/joey/Library/Python/2.7/bin:/Applications/Sublime Text.app/Contents/SharedSupport/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Users/joey/.cargo/bin:/Users/joey/.fig/bin:/Users/joey/.local/bin
+  - SecureKeyboardInput: false
+  - SecureKeyboardProcess: <none>
+## Hardware Info:
+  - Model Name: MacBook Pro
+  - Model Identifier: MacBookPro18,1
+  - Chip: Apple M1 Pro
+  - Cores: 10 (8 performance and 2 efficiency)
+  - Memory: 32 GB
+## OS Info:
+  - macOS 12.4.0 (21F79)
+## Environment:
+  - User Shell: /bin/zsh
+  - Current Directory: /Users/joey/Sites/LeadJig
+  - CLI Installed: true
+  - Executable Location: /opt/homebrew/bin/fig
+  - Current Window ID: 739/% (com.googlecode.iterm2)
+  - Active Process: zsh (58699) - /dev/ttys006
+  - Installed via Brew: true
+  - Environment Variables:
+    - TERM_SESSION_ID=w0t1p0:CD7043D8-0FBF-4CF5-BC8C-E23AA2220479
+    - PATH=/Users/joey/.bun/bin:/Users/joey/.yarn/bin:/Users/joey/.config/yarn/global/node_modules/.bin:/Users/joey/.serverless/bin:/Users/joey/.pyenv/versions/3.7.2/bin:/Users/joey/.ebcli-virtual-env/executables:/opt/homebrew/sbin:/Users/joey/.nodenv/shims:/Users/joey/.rbenv/shims:/Users/joey/.nodenv/shims:/Users/joey/.nodenv/bin:/Users/joey/.rbenv/shims:/Users/joey/.rbenv/bin:/Users/joey/.rbenv/plugins/ruby-build/bin:/Users/joey/Library/Python/2.7/bin:/Applications/Sublime Text.app/Contents/SharedSupport/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Users/joey/.cargo/bin:/Users/joey/.fig/bin:/Users/joey/.local/bin
+    - TERM=xterm-256color
+    - FIG_INTEGRATION_VERSION=8
+    - FIG_TERM=1
+    - FIG_TERM_VERSION=4.4.1
+    - FIG_WORKFLOWS_KEYBIND=^f
+    - FIG_PID=58699
+## Integrations:
+  - SSH: false
+  - TMUX: false
+  - iTerm: installed!
+  - Hyper: application is not present.
+  - Visual Studio Code: installed!
+  - Docker: false",No Fig Diagnostic Found,['bug'],"Jul 13, 2022, 7:57 AM PDT"
+16,1616,fig source doesn't work,No description provided.,No Fig Diagnostic Found,"['bug', 'codebase:cli']","Jul 14, 2022, 4:05 PM PDT"
+17,1617,Mission control should feel more like a native app,"This means using cursor: default on menu items and user-select: none on most text that isn't set by the user.
+Currently I can do ⌘A and select everything, which is very webby",No Fig Diagnostic Found,"['codebase:mission-control', 'type:feature-request']","Jul 14, 2022, 6:31 PM PDT"
+18,1618,Fig is not popping up on terminal or vscode for me,"Description:
+Please include a detailed description of the issue (and an image or screen recording, if applicable)
+Details:
+OS Fig Shell
+macOS 12.4.0 (21F79) 1.0.58 /bin/zsh
+fig diagnostic",No Fig Diagnostic Found,['None yet'],"Jul 14, 2022, 6:33 PM PDT"
+19,1619,Fig's theme customization for specific apps,"Sanity checks
+I have searched github.com/withfig/fig/issues and there are no duplicates of my feature
+Feature Details
+It would be great to have possibility to customize Fig's theme for different apps separately.
+For example: iTerm - dark; Terminal - dark, VSCode - night owl etc.",No Fig Diagnostic Found,['NEED_TO_LABEL'],"Jul 15, 2022, 7:01 AM PDT"
+20,1620,Fig defeats fish shell's Ctrl+F shortcut,"Description:
+Please include a detailed description of the issue (and an image or screen recording, if applicable)
+One of the most useful and frequently used keyboard shortcuts offered by all shells out-of-the-box is Ctrl+F, which is mapped to ""move cursor right"". In fish shell, this keyboard shortcut combines beautifully with fish's built-in auto-completion support to enable the user to easily accept fish's currently suggested auto-completion.[1]
+However, after upgrading to the latest version of Fig, Fig has now taken over Ctrl+F in fish shell, so users can no longer use it to move the cursor right or accept fish's current auto-completion. Instead, Ctrl+F now trigger's Fig's ""Create new Workflow..."" UI. Here's a screenshot where you can see I had typed ""./u"", then fish suggested an auto-completion (""./upgrade-dev-dependencies.sh""), then I tried hitting Ctrl+F to accept that completion, but rather than working as expected, Fig instead took over my shell with its ""Create new Workflow"" UI (but somewhat confusingly, still left fish's suggested auto-completion visible):
+I searched in Fig settings for any sign of a Ctrl+F keybinding I could hopefully disable, but couldn't find it there.
+Could you please fix this in the next version of Fig? And in the meantime, is there any workaround to get Ctrl+F working in fish again with the current version of Fig? This bug is killing my productivity so much I might have to uninstall Fig until this is fixed, but I'm hoping it won't come to that.
+Thanks for the great work on Fig!
+[1] You can also use right arrow, but Ctrl+F is preferable for touch typists because there's no need to take hands away from the home row, especially when the Control key is in a convenient place, e.g. when Capslock is mapped to Control.
+Details:
+macOS Fig Shell
+10.15.7 Version 1.0.58 (B472) /usr/local/bin/fish
+fig diagnostic",,['None yet'],"Jul 15, 2022, 4:32 PM PDT"
